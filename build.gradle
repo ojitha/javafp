@@ -39,6 +39,7 @@ dependencies {
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+    implementation 'org.jetbrains:annotations:15.0'
 }
  
 test {
